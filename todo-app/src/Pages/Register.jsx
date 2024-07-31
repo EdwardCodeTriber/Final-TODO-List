@@ -62,7 +62,7 @@ const Register = () => {
           label="Password"
           variant="standard"
           name={password}
-          type="text"
+          type="password"
           onChange={e => setPassword(e.target.value)}
         />
         <br />
@@ -71,7 +71,7 @@ const Register = () => {
           label="Confirm Password"
           variant="standard"
           name={confirmpassword}
-          type="text"
+          type="password"
           onChange={e => setConfirmPassword(e.target.value)}
         />
 

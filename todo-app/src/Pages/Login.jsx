@@ -66,7 +66,7 @@ const Login = () => {
               label="Password"
               variant="standard"
               name={password}
-              type="text"
+              type="password"
               onChange={(e) => setPassword(e.target.value)}
             />
             <br />
